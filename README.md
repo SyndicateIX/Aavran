@@ -256,6 +256,22 @@ npm run build
 npm run preview
 ```
 
+### 🌐 Deploying to Vercel
+
+Aavran is configured with full-stack support for **Vercel** using TanStack Start & Nitro:
+
+1. **Import the repository** in your [Vercel Dashboard](https://vercel.com/new).
+2. Vercel automatically detects the configuration via [`vercel.json`](vercel.json) (`tanstack-start` preset).
+3. **Add Environment Variables** under **Project Settings → Environment Variables**:
+   - `SUPABASE_PROJECT_ID`: Your Supabase project ID
+   - `SUPABASE_PUBLISHABLE_KEY`: Your Supabase anon/publishable key
+   - `SUPABASE_URL`: Your Supabase API endpoint URL
+   - `VITE_SUPABASE_PROJECT_ID`: (Same as above)
+   - `VITE_SUPABASE_PUBLISHABLE_KEY`: (Same as above)
+   - `VITE_SUPABASE_URL`: (Same as above)
+   - `LOVABLE_API_KEY`: *(Optional)* API key for real-time streaming AI advisor
+4. Click **Deploy**. Vercel will compile the full-stack server functions and static assets seamlessly.
+
 ---
 
 ## 📁 Project Structure
