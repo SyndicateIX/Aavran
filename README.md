@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./logo/logo-transparent-dark.png">
     <source media="(prefers-color-scheme: light)" srcset="./logo/logo-transparent.png">
-    <img src="./logo/logo-icon-square.png" alt="Aavran AI Logo" width="120" style="border-radius: 24px;" />
+    <img src="./logo/logo-icon-square.png" alt="Aavran AI Logo" width="240" style="border-radius: 24px;" />
   </picture>
 </p>
 
