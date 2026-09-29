@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Circular Badge -->
+  <circle cx="32" cy="32" r="30" fill="#15803D" stroke="#22C55E" stroke-width="2" />
+  <circle cx="32" cy="32" r="24" fill="#FFFFFF" />
+
+  <!-- Sprout -->
+  <path d="M32 14 C29 18 29 24 32 28 C35 24 35 18 32 14 Z" fill="#22C55E" />
+  <path d="M30 24 C25 21 21 23 21 28 C26 29 29 27 30 24 Z" fill="#16A34A" />
+  <path d="M34 24 C39 21 43 23 43 28 C38 29 35 27 34 24 Z" fill="#16A34A" />
+
+  <!-- Open Parcel / Box -->
+  <path d="M21 33 L32 39 L43 33 L43 43 L32 49 L21 43 Z" fill="#15803D" />
+  <path d="M32 39 L43 33 L43 43 L32 49 Z" fill="#22C55E" />
+  <path d="M21 33 L18 28 L27 30 L32 34 Z" fill="#15803D" stroke="#FFFFFF" stroke-width="0.8" />
+  <path d="M43 33 L46 28 L37 30 L32 34 Z" fill="#16A34A" stroke="#FFFFFF" stroke-width="0.8" />
+</svg>
